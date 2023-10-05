@@ -1,3 +1,4 @@
+import pytest
 # def native_query(self, query: Any) -> HandlerResponse:
 #     """Receive raw query and act upon it somehow.
 #     Args:
@@ -34,3 +35,7 @@
 # 5. test is_it_csv() should return True
 # 6. get_tables()
 # 7. get_columns()
+
+
+def test_fake():
+    assert True
